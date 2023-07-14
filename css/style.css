@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 0.5rem;
+  width: 50rem;
+  text-align: center;
+  height: 25rem;
+}
+h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.6rem;
+  color: hsl(150, 100%, 66%);
+  margin-top: 2rem;
+}
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 2.8rem;
+  color: hsl(193, 38%, 86%);
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+#divisoria {
+  margin-top: 15px;
+}
+#dado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button {
+  background: none;
+  background-color: hsl(150, 100%, 66%);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 62.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
